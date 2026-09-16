@@ -1,10 +1,12 @@
 """
 Program Cek Kelulusan SNBT 2026
-Eka Putra - 2605176005
-Fairuz Miftahul Zahra - 2605176010
-Muhammad Kifli - 2605176017
-Aulia - 2605176025
-Rahmat Adha - 2605176027
+2605176005 - Eka Putra
+2605176010 - Fairuz Miftahul Zahra
+2605176017 - Muhammad Kifli
+2605176025 - Aulia
+2605176027 - Rahmat Adha
+
+https://github.com/MR-X-junior/UTS-Algoritma-Dan-Pemrograman
 """
 
 data_peserta = [
