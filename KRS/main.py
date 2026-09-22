@@ -1,6 +1,5 @@
 """
 KRS (Kartu Rencana Studi) Application
-2605176005 - Eka Putra
 2605176010 - Fairuz Miftahul Zahra
 2605176017 - Muhammad Kifli
 2605176025 - Aulia
@@ -40,12 +39,12 @@ if username == "Tiara Maharani" and password == "radha":
     if nilai >= 75:
         print("[✓] Selamat! Anda lulus SNBP 2026.\n")
 
-        #  Lebih bagus lagi jika menggunakan error handling
         while True:
           print ("[+] Silakan pilih mata kuliah yang ingin diambil Maksimal 3 mata kuliah")
           print ("[+] Gunakan , untuk memilih lebih dari satu mata kuliah Contoh: 1,2,3\n")
-          print("\n".join(f"[{i + 1:02d}] {matkul[i]}" for i in range(len(matkul))))
-          pilih = list(dict.fromkeys(input(f"\n[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")))
+          for i in range(len(matkul)):
+              print(f"[{i + 1:02d}] {matkul[i]}")
+          pilih = input(f"[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")
 
           if len(pilih) > 3:
               print("[✗] Anda hanya dapat memilih maksimal 3 mata kuliah.\n")
