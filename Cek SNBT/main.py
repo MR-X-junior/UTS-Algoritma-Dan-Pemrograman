@@ -6,7 +6,7 @@ Program Cek Kelulusan SNBT 2026
 2605176025 - Aulia
 2605176027 - Rahmat Adha
 
-https://github.com/MR-X-junior/UTS-Algoritma-Dan-Pemrograman
+https://github.com/MR-X-junior/UTS-Algoritma-Dan-Pemrograman/CEK%20SNBT
 """
 
 data_peserta = [
