@@ -10,6 +10,7 @@ https://youtu.be/xxxxxxxxx
 
 """
 
+# KIFLI
 matkul = [["Pendidikan Pancasila", 1],
           ["Ilmu Sosial Budaya Dasar", 2],
           ["Pengantar Ilmu Pendidikan", 2],
@@ -40,14 +41,18 @@ while True:
         break
     else:
         print("[✗] Login gagal! Username atau password salah. Silakan coba lagi.\n")
+# END
 
+# RARA
 mp1 = int(input("[?] Masukkan Nilai TKA Bahasa Indonesia: "))
 mp2 = int(input("[?] Masukkan Nilai TKA Matematika: "))
 mp3 = int(input("[?] Masukkan nilai TKA mapel pilihan pertama: "))
 mp4 = int(input("[?] Masukkan nilai TKA mapel pilihan kedua: "))
 nilai = (mp1 + mp2 + mp3 + mp4) / 4
 print(f"[+] Rata-rata nilai: {nilai}")
+#END
 
+# AULIA
 if nilai >= 75:
     print("[✓] Selamat! Anda lulus SNBP 2026.")
 
@@ -57,7 +62,8 @@ if nilai >= 75:
       for i in range(len(matkul)):
           print(f"[{i + 1:02d}] {matkul[i][0]} ({matkul[i][1]} SKS)")
       pilih = input(f"\n[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")
-
+# END
+# RAHMAT
       if any(not p.isdigit() or int(p) < 1 or int(p) > len(matkul) for p in pilih):
           print("[✗] Pilihan tidak valid. Silakan pilih nomor mata kuliah yang sesuai.\n")
       elif len(pilih) == 0:
@@ -86,3 +92,4 @@ if nilai >= 75:
 
 else:
     print("[✗] Mohon maaf, Anda tidak lulus SNBP 2026 :(")
+#END
