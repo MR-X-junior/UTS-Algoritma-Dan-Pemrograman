@@ -1,6 +1,6 @@
 # Kelompok 8
 
-**Tema:** Aplikasi Cek Kelulusan SNBT
+**Tema:** Aplikasi Cek Kelulusan
 
 **Dosen Pengampu:** Ramaulvi M. Akhyar, M.Kom
 

@@ -54,7 +54,7 @@ print(f"[+] Rata-rata nilai: {nilai}")
 
 # AULIA
 if nilai >= 75:
-    print("[✓] Selamat! Anda lulus SNBP 2026.")
+    print("[✓] Selamat! Anda lulus")
 
     while True:
       print ("\n[+] Silakan pilih mata kuliah yang ingin diambil Minimal 20 SKS dan maksimal 20 SKS.")
@@ -91,5 +91,5 @@ if nilai >= 75:
     print (f"[+] Semangat ya kuliahnya {username} :)")
 
 else:
-    print("[✗] Mohon maaf, Anda tidak lulus SNBP 2026 :(")
+    print("[✗] Mohon maaf, Anda tidak lulus:(")
 #END
