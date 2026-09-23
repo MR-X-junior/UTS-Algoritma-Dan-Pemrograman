@@ -7,7 +7,6 @@ KRS (Kartu Rencana Studi) Application
 
 https://github.com/MR-X-junior/UTS-Algoritma-Dan-Pemrograman/KRS
 """
-matkul_selected = []
 matkul = ["Pendidikan Pancasila",
            "Ilmu Sosial Budaya Dasar",
            "Pengantar Ilmu Pendidikan",
@@ -22,13 +21,17 @@ matkul = ["Pendidikan Pancasila",
            "Pengembangan Perangkat Lunak"
          ]
 
-
+users = {
+         "Rahmat Adha":"radha",
+         "Muhammad Kifli":"keeeppp",
+         
+         }
 
 username = input("[?] Masukkan username: ")
 password = input("[?] Masukkan password: ")
 
-if username == "Tiara Maharani" and password == "radha":
-    print("[✓] Login berhasil! Selamat datang, Tiara Maharani.\n")
+if username in users and password == users[username]:
+    print(f"[✓] Login berhasil! Selamat datang, {username}\n")
     mp1 = int(input("[?] Masukkan Nilai TKA Bahasa Indonesia: "))
     mp2 = int(input("[?] Masukkan Nilai TKA Matematika: "))
     mp3 = int(input("[?] Masukkan nilai TKA mapel pilihan pertama: "))
@@ -37,17 +40,17 @@ if username == "Tiara Maharani" and password == "radha":
     print(f"[+] Rata-rata nilai: {nilai}")
 
     if nilai >= 75:
-        print("[✓] Selamat! Anda lulus SNBP 2026.\n")
+        print("[✓] Selamat! Anda lulus SNBP 2026.")
 
         while True:
-          print ("[+] Silakan pilih mata kuliah yang ingin diambil Maksimal 3 mata kuliah")
+          print ("\n[+] Silakan pilih mata kuliah yang ingin diambil Maksimal 5 mata kuliah")
           print ("[+] Gunakan , untuk memilih lebih dari satu mata kuliah Contoh: 1,2,3\n")
           for i in range(len(matkul)):
               print(f"[{i + 1:02d}] {matkul[i]}")
-          pilih = input(f"[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")
+          pilih = input(f"\n[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")
 
-          if len(pilih) > 3:
-              print("[✗] Anda hanya dapat memilih maksimal 3 mata kuliah.\n")
+          if len(pilih) > 5:
+              print("[✗] Anda hanya dapat memilih maksimal 5 mata kuliah.\n")
           elif any(not p.isdigit() or int(p) < 1 or int(p) > len(matkul) for p in pilih):
               print("[✗] Pilihan tidak valid. Silakan pilih nomor mata kuliah yang sesuai.\n")
           elif len(pilih) == 0:
@@ -58,12 +61,10 @@ if username == "Tiara Maharani" and password == "radha":
                   print(f"[{i + 1:02d}] {matkul[int(pilih[i]) - 1]}")
 
               ganti = input("\n[?] Apakah Anda ingin mengganti pilihan mata kuliah? (y/n): ").strip().lower() == "y"
-              if not ganti:break
+              if not ganti: break
 
         print ("\n[✓] Terima kasih! Pilihan mata kuliah Anda telah disimpan.")
-        print ("[+] Semangat ya kuliahnya cantik :)")
-
-              
+        print (f"[+] Semangat ya kuliahnya {username} :)")
 
     else:
         print("[✗] Mohon maaf, Anda tidak lulus SNBP 2026 :(")
