@@ -1,3 +1,15 @@
+"""
+Kelompok 8
+Tema : Aplikasi Cek Kelulusan SNBT
+2605176010 - Fairuz Miftahul Zahra
+2605176017 - Muhammad Kifli
+2605176025 - Aulia
+2605176027 - Rahmat Adha
+
+https://youtu.be/xxxxxxxxx
+
+"""
+
 matkul = [["Pendidikan Pancasila", 1],
           ["Ilmu Sosial Budaya Dasar", 2],
           ["Pengantar Ilmu Pendidikan", 2],
@@ -14,9 +26,9 @@ matkul = [["Pendidikan Pancasila", 1],
 
 users = {
         "Rahmat Adha":"radha",
-        "Muhammad Kifli":"keeeppp",
+        "Muhammad Kifli":"terkiplikipli",
         "Rara":"rara",
-        "Aulia":"auuullllllllll"
+        "Aulia":"aulimutanjai"
         }
 
 while True:
@@ -66,10 +78,7 @@ if nilai >= 75:
               print(f"\n[+] Total SKS diambil: {total_sks} / 20")
 
               ganti = input("\n[?] Apakah Anda ingin mengganti pilihan mata kuliah? (y/n): ").strip().lower() == "y"
-              if ganti:
-                  choice = input(f"[?] Pilih mata kuliah yang ingin diganti (1-{len(matkul)}): ").strip().split(",")
-                  
-              else:
+              if not ganti:
                   break
 
     print ("\n[✓] Terima kasih! Pilihan mata kuliah Anda telah disimpan.")
