@@ -62,12 +62,9 @@ if nilai >= 75:
       for i in range(len(matkul)):
           print(f"[{i + 1:02d}] {matkul[i][0]} ({matkul[i][1]} SKS)")
       pilih = input(f"\n[?] Pilih mata kuliah (1-{len(matkul)}): ").strip().split(",")
-# END
-# RAHMAT
+      # RAHMAT
       if any(not p.isdigit() or int(p) < 1 or int(p) > len(matkul) for p in pilih):
           print("[✗] Pilihan tidak valid. Silakan pilih nomor mata kuliah yang sesuai.\n")
-      elif len(pilih) == 0:
-          print("[✗] Anda harus memilih setidaknya satu mata kuliah.\n")
       else:
           total_sks = 0
           for i in range(len(pilih)):
@@ -89,7 +86,7 @@ if nilai >= 75:
 
     print ("\n[✓] Terima kasih! Pilihan mata kuliah Anda telah disimpan.")
     print (f"[+] Semangat ya kuliahnya {username} :)")
-
+    # END
 else:
     print("[✗] Mohon maaf, Anda tidak lulus:(")
-#END
+# END
