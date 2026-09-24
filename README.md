@@ -10,5 +10,8 @@
 - 2605176025 - Aulia
 - 2605176027 - Rahmat Adha
 
+## Flowchart
+![Flowchart Program] (flowchart.png)
+
 ## Link Video
 https://youtu.be/xxxxxxxxx
