@@ -11,7 +11,7 @@
 - 2605176027 - Rahmat Adha
 
 ## Flowchart
-![Flowchart Program](flowchart.png)
+![Flowchart Program](flowchart.svg)
 
 ## Link Video
 https://youtu.be/xxxxxxxxx
