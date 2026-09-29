@@ -29,7 +29,7 @@ users = {
         "Rahmat Adha":"radha",
         "Muhammad Kifli":"terkiplikipli",
         "Rara":"rara",
-        "Aulia":"aulimutanjai"
+        "Aulia":"aulimut"
         }
 
 while True:
