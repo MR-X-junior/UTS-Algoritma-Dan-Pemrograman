@@ -6,8 +6,8 @@ Tema : Aplikasi Cek Kelulusan SNBT
 2605176025 - Aulia
 2605176027 - Rahmat Adha
 
-https://youtu.be/xxxxxxxxx
-
+https://youtu.be/nZC580RWLVE?feature=shared
+https://github.com/MR-X-junior/UTS-Algoritma-Dan-Pemrograman/
 """
 
 # KIFLI

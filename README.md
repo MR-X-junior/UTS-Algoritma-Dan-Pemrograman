@@ -13,5 +13,5 @@
 ## Flowchart
 ![Flowchart Program](flowchart.svg)
 
-## Link Video
-https://youtu.be/xxxxxxxxx
+## Video Presentasi
+[![MEMBUAT APLIKASI CEK KELULUSAN MENGGUNAKAN PYTHON](https://img.youtube.com/vi/nZC580RWLVE/hqdefault.jpg)](https://www.youtube.com/watch?v=nZC580RWLVE)
