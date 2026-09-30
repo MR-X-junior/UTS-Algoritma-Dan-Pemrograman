@@ -1,6 +1,6 @@
 """
 Kelompok 8
-Tema : Aplikasi Cek Kelulusan SNBT
+Tema : Aplikasi Cek Kelulusan
 2605176010 - Fairuz Miftahul Zahra
 2605176017 - Muhammad Kifli
 2605176025 - Aulia
